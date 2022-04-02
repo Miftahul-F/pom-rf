@@ -11,22 +11,22 @@ Go to SwagLabs Page
     Go To                           https://www.saucedemo.com/
 
 I am inputting invalid Username
-    Input text                      //input[@id="user-name"]                    Miftah
+    Input text                      ${txtUsername}                    Miftah
 
 I am inputting invalid Password
-    Input text                      //input[@id="password"]                     Miftah
+    Input text                      ${txtPassword}                    Miftah
 
 I am Click Login Button
-    Click Element                   //input[@id="login-button"]
+    Click Element                   ${buttonlogin}
 
 Message error will be appear on the screen
-    Element Should Be Visible       //div[@class="error-message-container error"]
+    Element Should Be Visible       ${errorMessage}
 
 I am inputting valid Username
-    Input text                      //input[@id="user-name"]                    standard_user
+    Input text                      ${txtUsername}                    standard_user
 
 I am inputting valid Password
-    Input text                     //input[@id="password"]                      secret_sauce
+    Input text                      ${txtPassword}                    secret_sauce
 
-Dashbord page will be appear
-    Page Should Contain                                                         Products
+Dashboard page will be appear
+    Wait Until Page Contains                                    Products
