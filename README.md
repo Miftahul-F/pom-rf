@@ -12,7 +12,7 @@
 1. Open Visual Studio Code
 2. Click File Menu
 3. Click Open Folder...
-4. Select Folder demoblaze
+4. Select Folder pom-rf
 5. Click Terminal Menu
 6. Choose New Terminal
 7. In terminal write robot -d Reports Test_Suites
